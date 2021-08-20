@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="TribeBase">
+    <defName>ThrumboianTribe</defName>
+    <label>thrumboian tribe</label>
+    <categoryTag>ThrumboianTribal</categoryTag>
+    <description>A rare tribe of the thrumbo-like humanoid race of Thrumboian.</description>
+    <colorSpectrum>
+      <li>(0.52, 0.57, 0.62)</li>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/ThrumboianVillage</factionIconPath>
+    <pawnSingular>thrumboian</pawnSingular>
+    <pawnsPlural>thrumboians</pawnsPlural>
+    <disallowedMemes>
+      <!-- <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li> -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>30</configurationListOrderPriority>
+
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Thrumboian_Penitent>5</Thrumboian_Penitent>
+          <Thrumboian_Warrior>5</Thrumboian_Warrior>
+          <Thrumboian_Archer>10</Thrumboian_Archer>
+          <Thrumboian_Hunter>10</Thrumboian_Hunter>
+          <Thrumboian_HeavyArcher>10</Thrumboian_HeavyArcher>
+          <Thrumboian_Berserker>10</Thrumboian_Berserker>
+          <Thrumboian_ChiefRanged>4</Thrumboian_ChiefRanged>
+          <Thrumboian_ChiefMelee>4</Thrumboian_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Thrumboian_Archer>10</Thrumboian_Archer>
+          <Thrumboian_Hunter>10</Thrumboian_Hunter>
+          <Thrumboian_HeavyArcher>10</Thrumboian_HeavyArcher>
+          <Thrumboian_ChiefRanged>5</Thrumboian_ChiefRanged>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Thrumboian_Penitent>10</Thrumboian_Penitent>
+          <Thrumboian_Warrior>10</Thrumboian_Warrior>
+          <Thrumboian_Berserker>10</Thrumboian_Berserker>
+          <Thrumboian_ChiefMelee>5</Thrumboian_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Thrumboian_Warrior>10</Thrumboian_Warrior>
+          <Thrumboian_Archer>10</Thrumboian_Archer>
+          <Thrumboian_Hunter>20</Thrumboian_Hunter>
+          <Thrumboian_HeavyArcher>15</Thrumboian_HeavyArcher>
+          <Thrumboian_Berserker>15</Thrumboian_Berserker>
+          <Thrumboian_ChiefRanged>2</Thrumboian_ChiefRanged>
+          <Thrumboian_ChiefMelee>2</Thrumboian_ChiefMelee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Thrumboian_Trader>1</Thrumboian_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <Thrumboian_Warrior>7</Thrumboian_Warrior>
+          <Thrumboian_Archer>7</Thrumboian_Archer>
+          <Thrumboian_Hunter>15</Thrumboian_Hunter>
+          <Thrumboian_HeavyArcher>9</Thrumboian_HeavyArcher>
+          <Thrumboian_Berserker>9</Thrumboian_Berserker>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Thrumboian_Warrior>7</Thrumboian_Warrior>
+          <Thrumboian_Archer>10</Thrumboian_Archer>
+          <Thrumboian_Hunter>15</Thrumboian_Hunter>
+          <Thrumboian_HeavyArcher>10</Thrumboian_HeavyArcher>
+          <Thrumboian_Berserker>7</Thrumboian_Berserker>
+          <Thrumboian_ChiefRanged>10</Thrumboian_ChiefRanged>
+          <Thrumboian_ChiefMelee>10</Thrumboian_ChiefMelee>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+</Defs>
