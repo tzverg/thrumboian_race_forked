@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Thrumboian Race</name>
   <author>Naharri, Tarojun, DevDesigner</author>
-  <description>TODO</description>
+  <description>Adds a Thrumbo like species and Thrumboian tribe faction into the game.</description>
   <packageId>tarojun.thrumboianrace</packageId>
   <url></url>
   <supportedVersions>
