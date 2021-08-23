@@ -215,15 +215,11 @@
                 <bodyPart>ThrumboianHorn</bodyPart>
                 <inFrontOfBody>true</inFrontOfBody>
                 <layerInvert>false</layerInvert>
-                <!-- <layerOffset>0.02</layerOffset> -->
-                <!-- <angle>20</angle> -->
-                <alignWithHead>true</alignWithHead>
-                <drawSize>1.0</drawSize>
-                <!-- <drawSize>(1.25,0.8)</drawSize>
-                <drawSizePortrait>(1.25,0.8)</drawSizePortrait>
-                <drawRotated>false</drawRotated> -->
-                <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                <colorChannel>skin</colorChannel>
+                <drawnInBed>true</drawnInBed>
+                <defaultOffset>Head</defaultOffset>
                 <drawnDesiccated>true</drawnDesiccated>
+                <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 
                 <hediffGraphics>
                   <SteelThrumboianHorn>Things/Horns/SteelThrumboianHorn/SteelThrumboianHorn</SteelThrumboianHorn>
@@ -231,27 +227,25 @@
 
                 <offsets>
                   <south>
-                    <!-- <layerOffset>0.25</layerOffset> -->
+                    <layerOffset>0.25</layerOffset>
                     <bodyTypes>
-                      <Male>(0.0, 0.21)</Male>
-                      <Female>(0.0, 0.21)</Female>
+                      <Male>(0.0, -0.15)</Male>
+                      <Female>(0.0, -0.15)</Female>
                     </bodyTypes>
-                    <!-- <crownTypes>
-                      <Normal_Average>(0.42,-0.22)</Normal_Average>
-                    </crownTypes> -->
                   </south>
 
                   <north>
                     <bodyTypes>
-                      <Male>(0.0, 0.23)</Male>
-                      <Female>(0.0, 0.23)</Female>
+                      <Male>(0.0, 0.0049)</Male>
+                      <Female>(0.0, 0.0049)</Female>
                     </bodyTypes>
                   </north>
 
                   <east>
+                    <layerOffset>-0.26</layerOffset>
                     <bodyTypes>
-                      <Male>(-0.19, 0.22)</Male>
-                      <Female>(-0.19, 0.22)</Female>
+                      <Male>(-0.03, -0.14)</Male>
+                      <Female>(-0.03, -0.14)</Female>
                     </bodyTypes>
                   </east>
                 </offsets>
@@ -260,11 +254,8 @@
           </alienPartGenerator>
         </generalSettings>
 
-        <graphicPaths>
-          <!-- <li>
-            <skull>Things/Dessicated/Skull</skull>
-          </li> -->
-        </graphicPaths>
+        <!-- <graphicPaths>
+        </graphicPaths> -->
 
         <!-- <styleSettings>
         </styleSettings> -->
