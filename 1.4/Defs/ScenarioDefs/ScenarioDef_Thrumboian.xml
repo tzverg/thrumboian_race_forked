@@ -21,23 +21,23 @@
         </li>
 
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
-					<def>ConfigurePawnsKindDefs</def>
-					<pawnChoiceCount>8</pawnChoiceCount>
-					<leftBehindPawnKind>Thrumboian_Tribal</leftBehindPawnKind>
-					<kindCounts>
-						<li>
-							<kindDef>Thrumboian_Tribal</kindDef>
-							<count>1</count>
-							<requiredAtStart>true</requiredAtStart>
-						</li>
-					</kindCounts>
-				</li>
+          <def>ConfigurePawnsKindDefs</def>
+          <pawnChoiceCount>8</pawnChoiceCount>
+          <leftBehindPawnKind>Thrumboian_Tribal</leftBehindPawnKind>
+          <kindCounts>
+            <li>
+              <kindDef>Thrumboian_Tribal</kindDef>
+              <count>1</count>
+              <requiredAtStart>true</requiredAtStart>
+            </li>
+          </kindCounts>
+        </li>
 
         <li Class="ScenPart_PlayerPawnsArriveMethod">
-					<def>PlayerPawnsArriveMethod</def>
-					<visible>false</visible>
-					<method>Standing</method>
-				</li>
+          <def>PlayerPawnsArriveMethod</def>
+          <visible>false</visible>
+          <method>Standing</method>
+        </li>
 
         <li Class="ScenPart_StartingAnimal">
           <def>StartingAnimal</def>

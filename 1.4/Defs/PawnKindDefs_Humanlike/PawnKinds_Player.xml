@@ -20,11 +20,11 @@
     <initialResistanceRange>13~21</initialResistanceRange>
 
     <xenotypeSet Inherit="False">
-			<xenotypeChances>
-				<ThrumboainXenotype>999</ThrumboainXenotype>
-			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
-		</xenotypeSet>
+      <xenotypeChances>
+        <ThrumboainXenotype>999</ThrumboainXenotype>
+      </xenotypeChances>
+      <warnIfTotalAbove1>false</warnIfTotalAbove1>
+    </xenotypeSet>
   </PawnKindDef>
 
 </Defs>

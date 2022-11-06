@@ -14,11 +14,11 @@
 
     <useFactionXenotypes>false</useFactionXenotypes>
     <xenotypeSet>
-			<xenotypeChances>
-				<ThrumboainXenotype>999</ThrumboainXenotype>
-			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
-		</xenotypeSet>
+      <xenotypeChances>
+        <ThrumboainXenotype>999</ThrumboainXenotype>
+      </xenotypeChances>
+      <warnIfTotalAbove1>false</warnIfTotalAbove1>
+    </xenotypeSet>
   </PawnKindDef>
 
   <!-- Poverty tier - penitent -->

@@ -37,11 +37,11 @@
     </startingTechprintsResearchTags>
 
     <xenotypeSet Inherit="False">
-			<xenotypeChances>
-				<ThrumboainXenotype>999</ThrumboainXenotype>
-			</xenotypeChances>
-			<warnIfTotalAbove1>false</warnIfTotalAbove1>
-		</xenotypeSet>
+      <xenotypeChances>
+        <ThrumboainXenotype>999</ThrumboainXenotype>
+      </xenotypeChances>
+      <warnIfTotalAbove1>false</warnIfTotalAbove1>
+    </xenotypeSet>
   </FactionDef>
 
   <FactionDef ParentName="TribeBase">
@@ -72,10 +72,10 @@
     <configurationListOrderPriority>30</configurationListOrderPriority>
 
     <xenotypeSet Inherit="False">
-			<xenotypeChances>
-				<ThrumboainXenotype>1</ThrumboainXenotype>
-			</xenotypeChances>
-		</xenotypeSet>
+      <xenotypeChances>
+        <ThrumboainXenotype>1</ThrumboainXenotype>
+      </xenotypeChances>
+    </xenotypeSet>
 
     <pawnGroupMakers>
       <li>

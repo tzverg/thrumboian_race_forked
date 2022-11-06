@@ -2,8 +2,8 @@
 <Defs>
 
   <XenotypeIconDef>
-		<defName>ThrumboainXenotype</defName>
-		<texPath>UI/XenotypeIcons/Thrumboian</texPath>
-	</XenotypeIconDef>
+    <defName>ThrumboainXenotype</defName>
+    <texPath>UI/XenotypeIcons/Thrumboian</texPath>
+  </XenotypeIconDef>
 
 </Defs>
