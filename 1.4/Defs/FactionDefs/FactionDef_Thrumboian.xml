@@ -44,18 +44,21 @@
     </xenotypeSet>
   </FactionDef>
 
-  <FactionDef ParentName="TribeBase">
-    <defName>Thrumboian_Tribe</defName>
-    <label>thrumboian tribe</label>
-    <description>A rare tribe of the thrumbo-like humanoid race of Thrumboian.</description>
+  <FactionDef ParentName="TribeBase" Name="ThrumboianTribeBase" Abstract="true">
     <pawnSingular>thrumboian</pawnSingular>
     <pawnsPlural>thrumboians</pawnsPlural>
     <factionIconPath>UI/FactionIcons/ThrumboianVillage</factionIconPath>
     <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <ThrumboainXenotype>1</ThrumboainXenotype>
+      </xenotypeChances>
+    </xenotypeSet>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
     </disallowedMemes>
     <structureMemeWeights>
       <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">4</Structure_Animist>
@@ -63,20 +66,6 @@
       <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
       <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
     </structureMemeWeights>
-    <colorSpectrum>
-      <li>(0.52, 0.57, 0.62)</li>
-      <li>(0.87, 0.87, 0.87)</li>
-      <li>(1, 1, 1)</li>
-    </colorSpectrum>
-    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-    <configurationListOrderPriority>30</configurationListOrderPriority>
-
-    <xenotypeSet Inherit="False">
-      <xenotypeChances>
-        <ThrumboainXenotype>1</ThrumboainXenotype>
-      </xenotypeChances>
-    </xenotypeSet>
-
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>
@@ -205,6 +194,33 @@
         </options>
       </li>
     </pawnGroupMakers>
+  </FactionDef>
+
+  <FactionDef ParentName="ThrumboianTribeBase">
+    <defName>Thrumboian_Tribe</defName>
+    <label>thrumboian tribe</label>
+    <description>A rare tribe of the thrumbo-like humanoid race of Thrumboian.</description>
+    <colorSpectrum>
+      <li>(0.52, 0.57, 0.62)</li>
+      <li>(0.87, 0.87, 0.87)</li>
+    </colorSpectrum>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>30</configurationListOrderPriority>
+  </FactionDef>
+
+  <FactionDef ParentName="ThrumboianTribeBase">
+    <naturalEnemy>true</naturalEnemy>
+    <defName>Thrumboian_Tribe_Rough</defName>
+    <label>fierce Thrumboian tribe</label>
+    <description>A rare tribe of the thrumbo-like humanoid race of Thrumboian.</description>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+    </requiredMemes>
+    <colorSpectrum>
+      <li>(0.77, 0.41, 0.36)</li>
+    </colorSpectrum>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>30</configurationListOrderPriority>
   </FactionDef>
 
 </Defs>
