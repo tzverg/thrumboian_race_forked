@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ModMetaData>
 
-  <name>Thrumboian Race</name>
-  <author>DevDesigner</author>
-  <description>Adds a Thrumbo like species and Thrumboian tribe faction into the game.</description>
-  <packageId>DevDesigner.ThrumboianRace</packageId>
-  <url>https://steamcommunity.com/sharedfiles/filedetails/?id=2580023528</url>
+  <name>Thrumboian Race Forked [T]</name>
+  <author>TzverG</author>
+  <description>Adds a Thrumbo like species and Thrumboian tribe faction into the game.\n\n Language support: \n-english\n-russian</description>
+  <packageId>TzverG.ThrumboianRace</packageId>
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
