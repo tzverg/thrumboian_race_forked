@@ -35,29 +35,29 @@
     </subSounds>
   </SoundDef>
 
-  <AbilityDef ParentName="RoleAuraBuffBase">
-    <defName>ThrumboianFury</defName>
-    <label>thrumboian fury</label>
-    <description>The caster fills themself with anger. This strengthens the body past normal limits and will last for 3 hours.</description>
-    <iconPath>UI/Abilities/BerserkTrance</iconPath>
-    <warmupMoteSocialSymbol>UI/Abilities/BerserkTrance</warmupMoteSocialSymbol>
-    <statBases>
-      <Ability_Duration>126</Ability_Duration>
-      <Ability_EffectRadius>0</Ability_EffectRadius>
-    </statBases>
-    <verbProperties>
-      <range>0</range>
-    </verbProperties>
-    <comps>
-      <li Class="CompProperties_AbilityGiveHediff">
-        <compClass>CompAbilityEffect_GiveHediff</compClass>
-        <hediffDef>ThrumboianFury</hediffDef>
-        <onlyApplyToSelf>True</onlyApplyToSelf>
-        <replaceExisting>true</replaceExisting>
-        <soundMale>ThrumboianFury_Male</soundMale>
-        <soundFemale>ThrumboianFury_Female</soundFemale>
-      </li>
-    </comps>
-  </AbilityDef>
+  <!-- <AbilityDef ParentName="RoleAuraBuffBase"> -->
+    <!-- <defName>ThrumboianFury</defName> -->
+    <!-- <label>thrumboian fury</label> -->
+    <!-- <description>The caster fills themself with anger. This strengthens the body past normal limits and will last for 3 hours.</description> -->
+    <!-- <iconPath>UI/Abilities/BerserkTrance</iconPath> -->
+    <!-- <warmupMoteSocialSymbol>UI/Abilities/BerserkTrance</warmupMoteSocialSymbol> -->
+    <!-- <statBases> -->
+      <!-- <Ability_Duration>126</Ability_Duration> -->
+      <!-- <Ability_EffectRadius>0</Ability_EffectRadius> -->
+    <!-- </statBases> -->
+    <!-- <verbProperties> -->
+      <!-- <range>0</range> -->
+    <!-- </verbProperties> -->
+    <!-- <comps> -->
+      <!-- <li Class="CompProperties_AbilityGiveHediff"> -->
+        <!-- <compClass>CompAbilityEffect_GiveHediff</compClass> -->
+        <!-- <hediffDef>ThrumboianFury</hediffDef> -->
+        <!-- <onlyApplyToSelf>True</onlyApplyToSelf> -->
+        <!-- <replaceExisting>true</replaceExisting> -->
+        <!-- <soundMale>ThrumboianFury_Male</soundMale> -->
+        <!-- <soundFemale>ThrumboianFury_Female</soundFemale> -->
+      <!-- </li> -->
+    <!-- </comps> -->
+  <!-- </AbilityDef> -->
 
 </Defs>

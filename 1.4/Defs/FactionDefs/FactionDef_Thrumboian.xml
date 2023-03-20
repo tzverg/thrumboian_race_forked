@@ -54,6 +54,7 @@
         <ThrumboainXenotype>1</ThrumboainXenotype>
       </xenotypeChances>
     </xenotypeSet>
+	<leaderTitle>thrumboian-chief</leaderTitle>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>

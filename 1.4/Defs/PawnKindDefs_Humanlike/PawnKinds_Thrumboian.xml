@@ -250,7 +250,7 @@
     <initialResistanceRange>12~19</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="ThrumboianBase">
+  <PawnKindDef ParentName="ThrumboianBase" MayRequire="ludeon.rimworld.ideology">
     <defName>Thrumboian_Farmer</defName>
     <label>thrumboian farmer</label>
     <combatPower>35</combatPower>
@@ -285,7 +285,7 @@
     <initialResistanceRange>17~27</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="ThrumboianBase">
+  <PawnKindDef ParentName="ThrumboianBase" MayRequire="ludeon.rimworld.ideology">
     <defName>Thrumboian_Logger</defName>
     <label>thrumboian logger</label>
     <combatPower>40</combatPower>
