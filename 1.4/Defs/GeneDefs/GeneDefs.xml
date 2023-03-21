@@ -69,12 +69,12 @@
     <description>Carriers of this gene can trigger Thrumboian fury.</description>
     <iconPath>UI/Icons/Genes/Gene_HyperAggressive</iconPath>
     <displayCategory>Ability</displayCategory>
-    <!-- <abilities> -->
-      <!-- <li>ThrumboianFury</li> -->
-    <!-- </abilities> -->
-    <!-- <descriptionHyperlinks> -->
-      <!-- <AbilityDef>ThrumboianFury</AbilityDef> -->
-    <!-- </descriptionHyperlinks> -->
+    <abilities>
+      <li>ThrumboianFury</li>
+    </abilities>
+    <descriptionHyperlinks>
+      <AbilityDef>ThrumboianFury</AbilityDef>
+    </descriptionHyperlinks>
     <biostatMet>3</biostatMet>
     <biostatCpx>1</biostatCpx>
     <symbolPack>
